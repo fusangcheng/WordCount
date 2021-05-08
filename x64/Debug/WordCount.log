@@ -1,0 +1,20 @@
+﻿  源.cpp
+G:\Git\WordCount\WordCount\源.cpp(5,13): error C3861: “openfile”: 找不到标识符
+G:\Git\WordCount\WordCount\源.cpp(19,9): warning C4778: “printf”: 格式字符串“%”未终止
+G:\Git\WordCount\WordCount\源.cpp(19,24): warning C4474: printf: 格式字符串中传递的参数太多
+G:\Git\WordCount\WordCount\源.cpp(19,24): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+G:\Git\WordCount\WordCount\源.cpp(18,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+G:\Git\WordCount\WordCount\源.cpp(27,13): error C3861: “openfile”: 找不到标识符
+G:\Git\WordCount\WordCount\源.cpp(35,9): warning C4778: “printf”: 格式字符串“%”未终止
+G:\Git\WordCount\WordCount\源.cpp(35,24): warning C4474: printf: 格式字符串中传递的参数太多
+G:\Git\WordCount\WordCount\源.cpp(35,24): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+G:\Git\WordCount\WordCount\源.cpp(34,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
+G:\Git\WordCount\WordCount\源.cpp(41,31): error C2440: “初始化”: 无法从“const char [11]”转换为“char *”
+G:\Git\WordCount\WordCount\源.cpp(41,17): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+G:\Git\WordCount\WordCount\源.cpp(44,8): error C3861: “strcmp”: 找不到标识符
+G:\Git\WordCount\WordCount\源.cpp(47,13): error C3861: “strcmp”: 找不到标识符
+G:\Git\WordCount\WordCount\源.cpp(48,33): error C2664: “void WordCount(int,char *,char *)”: 无法将参数 2 从“char **”转换为“char *”
+G:\Git\WordCount\WordCount\源.cpp(48,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+G:\Git\WordCount\WordCount\源.cpp(24,6): message : 参见“WordCount”的声明
